@@ -1,4 +1,4 @@
-package com.example.fastlogin;
+package com.bengianil.fastlogin;
 
 import org.junit.Test;
 

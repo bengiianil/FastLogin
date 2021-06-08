@@ -1,9 +1,7 @@
-package com.example.fastlogin;
+package com.bengianil.fastlogin;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
