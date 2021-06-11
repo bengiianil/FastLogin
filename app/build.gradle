@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.fastlogin"
-        minSdkVersion 16
+        minSdkVersion 18
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -27,7 +27,12 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 }
-
+repositories {
+    maven {
+        url 'https://mymavenrepo.com/repo/2ZuufY6Wl43lpKiQzKvt/'
+        name 'FastLogin Repo'
+    }
+}
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.2.0'
@@ -37,5 +42,5 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-    implementation ('com.turkcell.dssgate:dssgate-aar-beta:2.0.13')
+    implementation 'com.turkcell.dssgate:dssgate-aar-beta:2.0.13'
 }

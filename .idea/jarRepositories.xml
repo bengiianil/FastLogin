@@ -21,5 +21,10 @@
       <option name="name" value="Google" />
       <option name="url" value="https://dl.google.com/dl/android/maven2/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="FastLogin Repo" />
+      <option name="name" value="FastLogin Repo" />
+      <option name="url" value="https://mymavenrepo.com/repo/2ZuufY6Wl43lpKiQzKvt/" />
+    </remote-repository>
   </component>
 </project>

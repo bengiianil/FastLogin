@@ -3,10 +3,6 @@ buildscript {
     repositories {
         google()
         jcenter()
-        maven {
-            url 'https://mymavenrepo.com/repo/2ZuufY6Wl43lpKiQzKvt/'
-            name 'FastLogin Repo'
-        }
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.1.3"
